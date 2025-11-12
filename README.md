@@ -6,7 +6,6 @@ An Augmented Reality application for viewing human anatomy models, built with Un
 ![Unity](https://img.shields.io/badge/Unity-2018.2.14-57b9d3.svg?logo=unity)
 ![Vuforia](https://img.shields.io/badge/Powered%20by-Vuforia-blue.svg?logo=vuforia)
 
----
 
 AnatomyViewerAR is an interactive mobile app designed to make learning human anatomy more engaging. By scanning specific target images with your device's camera, this app brings 3D models of organs and skeletons to life, allowing you to view and manipulate them in your own environment.
 
@@ -25,8 +24,6 @@ AnatomyViewerAR is an interactive mobile app designed to make learning human ana
 </table>
 </div>
 
----
-
 ## Features
 
 * **Image-Based AR:** Recognizes real-world images to display corresponding 3D models.
@@ -42,8 +39,6 @@ AnatomyViewerAR is an interactive mobile app designed to make learning human ana
     * **Move:** Drag to reposition the models in your space.
 * **Simple Navigation:** A clean main menu to select which anatomy scene to load.
 
----
-
 ## Tech Stack
 
 * **Game Engine:** [Unity 3D](https://unity.com/) (Version 2018.2.14f1)
@@ -51,13 +46,9 @@ AnatomyViewerAR is an interactive mobile app designed to make learning human ana
 * **Programming Language:** [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * **Platform:** Android
 
----
-
 ## How It Works
 
 The application uses the Vuforia SDK to identify pre-defined **Image Target(s)**. These targets are stored in a database (`AR_Demo.dat`) within the app. When the camera recognizes a target, the app instantiates the corresponding 3D model (e.g., `heart.fbx`) and attaches scripts to it, allowing for user interaction.
-
----
 
 ## Installation (For End-Users)
 (Only compatible with Android 13 devices)
@@ -66,8 +57,6 @@ The application uses the Vuforia SDK to identify pre-defined **Image Target(s)**
 2.  Download the latest `AnatomyAR.apk` file.
 3.  On your Android device, you may need to **"Allow installation from unknown sources"** in your security settings.
 4.  Find the downloaded `.apk` in your files and tap on it to install.
-
----
 
 ## How to Use
 
@@ -78,8 +67,6 @@ This app requires specific images to work.
 3.  Either print the image or open it on another screen (like a tablet or phone).
 4.  Point your phone's camera at the image.
 5.  The 3D model will appear on top of the image. You can now interact with it!
-
----
 
 ## Target Image Preview
 
@@ -95,8 +82,6 @@ This app requires specific images to work.
 </table>
 </div>
 
----
-
 ## Building From Source (For Developers)
 
 Interested in modifying the project?
@@ -110,15 +95,11 @@ Interested in modifying the project?
 4.  Ensure you have the **Vuforia Engine** package installed in the Unity Package Manager.
 5.  Go to **File > Build Settings...**, choose **Android**, and click **Build**.
 
----
-
 ## Open for Contributions 
 
 * [ ] Improve UI/UX  
 * [ ] Add descriptive labels for different parts of the models.
 * [ ] Implement advanced interactions (e.g., animations, x-ray shaders).
-
----
 
 ## Team
 
@@ -127,8 +108,6 @@ This project was a team effort.
 * **Moksh Dandotiya**
 * **Yuvraj Tiwari**
 * **Mohit Sahu**
-
----
 
 ## License
 
