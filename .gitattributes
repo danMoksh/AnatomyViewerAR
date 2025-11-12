@@ -1,2 +1,22 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Treat images and binaries correctly
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.dll binary
+*.exe binary
+*.unity binary
+*.prefab binary
+*.fbx binary
+*.mat binary
+
+# Unity text assets (for readable diffs)
+*.cs text diff=csharp
+*.shader text
+*.json text
+*.xml text
+*.yml text
+*.meta text
